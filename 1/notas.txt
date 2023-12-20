@@ -1,0 +1,16 @@
+Versión kernel: Linux ev3dev 4.14.117-ev3dev-2.3.5-ev3 #1 PREEMPT Sat Mar 7 12:54:39 CST 2020 armv5tejl GNU/Linux
+Flags configuración:
+- CONFIG_PREEMPT: y
+- CONFIG_HIGH_RES_TIMERS: y
+- CONFIG_HZ: 100
+
+Tiempo de compilación con time
+Mi máquina
+# cc1 0.00 0.03
+# as 0.00 0.02
+# collect2 0.02 0.02
+
+Robot
+# cc1 1.25 0.32
+# as 0.08 0.13
+# collect2 0.99 0.39
